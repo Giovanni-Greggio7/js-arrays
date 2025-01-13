@@ -30,7 +30,8 @@ console.log(teachers)
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
-const isFabioPresent = teachers.indexOf ("Fabio") !== -1
+// const isFabioPresent = teachers.indexOf ("Fabio") !== -1
+const isFabioPresent = teachers.includes ("Fabio")
 console.log(isFabioPresent)
 
 
